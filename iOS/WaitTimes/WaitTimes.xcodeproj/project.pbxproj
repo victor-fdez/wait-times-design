@@ -7,199 +7,173 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF28C97B18D8C79500646155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28C97A18D8C79500646155 /* Foundation.framework */; };
-		DF28C97D18D8C79500646155 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28C97C18D8C79500646155 /* CoreGraphics.framework */; };
-		DF28C97F18D8C79500646155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28C97E18D8C79500646155 /* UIKit.framework */; };
-		DF28C98518D8C79500646155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF28C98318D8C79500646155 /* InfoPlist.strings */; };
-		DF28C98718D8C79500646155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28C98618D8C79500646155 /* main.m */; };
-		DF28C98B18D8C79500646155 /* waitTimesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28C98A18D8C79500646155 /* waitTimesAppDelegate.m */; };
-		DF28C98E18D8C79500646155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF28C98C18D8C79500646155 /* Main.storyboard */; };
-		DF28C99118D8C79500646155 /* waitTimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28C99018D8C79500646155 /* waitTimesViewController.m */; };
-		DF28C99318D8C79500646155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF28C99218D8C79500646155 /* Images.xcassets */; };
-		DF28C99A18D8C79600646155 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28C99918D8C79600646155 /* XCTest.framework */; };
-		DF28C99B18D8C79600646155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28C97A18D8C79500646155 /* Foundation.framework */; };
-		DF28C99C18D8C79600646155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28C97E18D8C79500646155 /* UIKit.framework */; };
-		DF28C9A418D8C79600646155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9A218D8C79600646155 /* InfoPlist.strings */; };
-		DF28C9A618D8C79600646155 /* WaitTimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28C9A518D8C79600646155 /* WaitTimesTests.m */; };
-		DF28C9B418D8CC3100646155 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9B218D8CC3000646155 /* Default.png */; };
-		DF28C9B518D8CC3100646155 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9B318D8CC3100646155 /* Default@2x.png */; };
-		DF28C9BB18D8CDCC00646155 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9B718D8CDCC00646155 /* OpenSans-Bold.ttf */; };
-		DF28C9BC18D8CDCC00646155 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9B818D8CDCC00646155 /* OpenSans-Light.ttf */; };
-		DF28C9BD18D8CDCC00646155 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9B918D8CDCC00646155 /* OpenSans-Regular.ttf */; };
-		DF28C9BE18D8CDCC00646155 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9BA18D8CDCC00646155 /* OpenSans-Semibold.ttf */; };
-		DF28C9C118D8CFDE00646155 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9BF18D8CFDE00646155 /* background.png */; };
-		DF28C9C218D8CFDE00646155 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF28C9C018D8CFDE00646155 /* background@2x.png */; };
-		DF28C9C518D8E2A900646155 /* waitTimesCustomFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF28C9C418D8E2A900646155 /* waitTimesCustomFontLabel.m */; };
+		DF3384EE18E1659E000122A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3384ED18E1659E000122A9 /* Foundation.framework */; };
+		DF3384F018E1659E000122A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3384EF18E1659E000122A9 /* CoreGraphics.framework */; };
+		DF3384F218E1659E000122A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3384F118E1659E000122A9 /* UIKit.framework */; };
+		DF3384F818E1659E000122A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF3384F618E1659E000122A9 /* InfoPlist.strings */; };
+		DF3384FA18E1659E000122A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3384F918E1659E000122A9 /* main.m */; };
+		DF3384FE18E1659E000122A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3384FD18E1659E000122A9 /* AppDelegate.m */; };
+		DF33850018E1659E000122A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3384FF18E1659E000122A9 /* Images.xcassets */; };
+		DF33850718E1659E000122A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF33850618E1659E000122A9 /* XCTest.framework */; };
+		DF33850818E1659E000122A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3384ED18E1659E000122A9 /* Foundation.framework */; };
+		DF33850918E1659E000122A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3384F118E1659E000122A9 /* UIKit.framework */; };
+		DF33851118E1659E000122A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF33850F18E1659E000122A9 /* InfoPlist.strings */; };
+		DF33851318E1659E000122A9 /* WaitTimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF33851218E1659E000122A9 /* WaitTimesTests.m */; };
+		DF33851F18E16687000122A9 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33851C18E16687000122A9 /* OpenSans-Bold.ttf */; };
+		DF33852018E16687000122A9 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33851D18E16687000122A9 /* OpenSans-Light.ttf */; };
+		DF33852118E16687000122A9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF33851E18E16687000122A9 /* OpenSans-Regular.ttf */; };
+		DF33852418E16784000122A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF33852318E16784000122A9 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF28C99D18D8C79600646155 /* PBXContainerItemProxy */ = {
+		DF33850A18E1659E000122A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF28C96F18D8C79500646155 /* Project object */;
+			containerPortal = DF3384E218E1659E000122A9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF28C97618D8C79500646155;
+			remoteGlobalIDString = DF3384E918E1659E000122A9;
 			remoteInfo = WaitTimes;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF28C97718D8C79500646155 /* WaitTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF28C97A18D8C79500646155 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DF28C97C18D8C79500646155 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DF28C97E18D8C79500646155 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DF28C98218D8C79500646155 /* WaitTimes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaitTimes-Info.plist"; sourceTree = "<group>"; };
-		DF28C98418D8C79500646155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DF28C98618D8C79500646155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DF28C98818D8C79500646155 /* WaitTimes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaitTimes-Prefix.pch"; sourceTree = "<group>"; };
-		DF28C98918D8C79500646155 /* waitTimesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waitTimesAppDelegate.h; sourceTree = "<group>"; };
-		DF28C98A18D8C79500646155 /* waitTimesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waitTimesAppDelegate.m; sourceTree = "<group>"; };
-		DF28C98D18D8C79500646155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF28C98F18D8C79500646155 /* waitTimesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waitTimesViewController.h; sourceTree = "<group>"; };
-		DF28C99018D8C79500646155 /* waitTimesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waitTimesViewController.m; sourceTree = "<group>"; };
-		DF28C99218D8C79500646155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DF28C99818D8C79600646155 /* WaitTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaitTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF28C99918D8C79600646155 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DF28C9A118D8C79600646155 /* WaitTimesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaitTimesTests-Info.plist"; sourceTree = "<group>"; };
-		DF28C9A318D8C79600646155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DF28C9A518D8C79600646155 /* WaitTimesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaitTimesTests.m; sourceTree = "<group>"; };
-		DF28C9B218D8CC3000646155 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = WaitTimes/graphics/Default.png; sourceTree = "<group>"; };
-		DF28C9B318D8CC3100646155 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "WaitTimes/graphics/Default@2x.png"; sourceTree = "<group>"; };
-		DF28C9B718D8CDCC00646155 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		DF28C9B818D8CDCC00646155 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		DF28C9B918D8CDCC00646155 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		DF28C9BA18D8CDCC00646155 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
-		DF28C9BF18D8CFDE00646155 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = WaitTimes/graphics/background.png; sourceTree = "<group>"; };
-		DF28C9C018D8CFDE00646155 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "WaitTimes/graphics/background@2x.png"; sourceTree = "<group>"; };
-		DF28C9C318D8E2A900646155 /* waitTimesCustomFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitTimesCustomFontLabel.h; sourceTree = "<group>"; };
-		DF28C9C418D8E2A900646155 /* waitTimesCustomFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waitTimesCustomFontLabel.m; sourceTree = "<group>"; };
+		DF3384EA18E1659E000122A9 /* WaitTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3384ED18E1659E000122A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF3384EF18E1659E000122A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF3384F118E1659E000122A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF3384F518E1659E000122A9 /* WaitTimes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaitTimes-Info.plist"; sourceTree = "<group>"; };
+		DF3384F718E1659E000122A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF3384F918E1659E000122A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3384FB18E1659E000122A9 /* WaitTimes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaitTimes-Prefix.pch"; sourceTree = "<group>"; };
+		DF3384FC18E1659E000122A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF3384FD18E1659E000122A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3384FF18E1659E000122A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF33850518E1659E000122A9 /* WaitTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaitTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF33850618E1659E000122A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF33850E18E1659E000122A9 /* WaitTimesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaitTimesTests-Info.plist"; sourceTree = "<group>"; };
+		DF33851018E1659E000122A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF33851218E1659E000122A9 /* WaitTimesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaitTimesTests.m; sourceTree = "<group>"; };
+		DF33851C18E16687000122A9 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		DF33851D18E16687000122A9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		DF33851E18E16687000122A9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		DF33852318E16784000122A9 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF28C97418D8C79500646155 /* Frameworks */ = {
+		DF3384E718E1659E000122A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28C97D18D8C79500646155 /* CoreGraphics.framework in Frameworks */,
-				DF28C97F18D8C79500646155 /* UIKit.framework in Frameworks */,
-				DF28C97B18D8C79500646155 /* Foundation.framework in Frameworks */,
+				DF3384F018E1659E000122A9 /* CoreGraphics.framework in Frameworks */,
+				DF3384F218E1659E000122A9 /* UIKit.framework in Frameworks */,
+				DF3384EE18E1659E000122A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF28C99518D8C79600646155 /* Frameworks */ = {
+		DF33850218E1659E000122A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28C99A18D8C79600646155 /* XCTest.framework in Frameworks */,
-				DF28C99C18D8C79600646155 /* UIKit.framework in Frameworks */,
-				DF28C99B18D8C79600646155 /* Foundation.framework in Frameworks */,
+				DF33850718E1659E000122A9 /* XCTest.framework in Frameworks */,
+				DF33850918E1659E000122A9 /* UIKit.framework in Frameworks */,
+				DF33850818E1659E000122A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF28C96E18D8C79500646155 = {
+		DF3384E118E1659E000122A9 = {
 			isa = PBXGroup;
 			children = (
-				DF28C98018D8C79500646155 /* WaitTimes */,
-				DF28C99F18D8C79600646155 /* WaitTimesTests */,
-				DF28C97918D8C79500646155 /* Frameworks */,
-				DF28C97818D8C79500646155 /* Products */,
+				DF3384F318E1659E000122A9 /* WaitTimes */,
+				DF33850C18E1659E000122A9 /* WaitTimesTests */,
+				DF3384EC18E1659E000122A9 /* Frameworks */,
+				DF3384EB18E1659E000122A9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF28C97818D8C79500646155 /* Products */ = {
+		DF3384EB18E1659E000122A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C97718D8C79500646155 /* WaitTimes.app */,
-				DF28C99818D8C79600646155 /* WaitTimesTests.xctest */,
+				DF3384EA18E1659E000122A9 /* WaitTimes.app */,
+				DF33850518E1659E000122A9 /* WaitTimesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF28C97918D8C79500646155 /* Frameworks */ = {
+		DF3384EC18E1659E000122A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C97A18D8C79500646155 /* Foundation.framework */,
-				DF28C97C18D8C79500646155 /* CoreGraphics.framework */,
-				DF28C97E18D8C79500646155 /* UIKit.framework */,
-				DF28C99918D8C79600646155 /* XCTest.framework */,
+				DF3384ED18E1659E000122A9 /* Foundation.framework */,
+				DF3384EF18E1659E000122A9 /* CoreGraphics.framework */,
+				DF3384F118E1659E000122A9 /* UIKit.framework */,
+				DF33850618E1659E000122A9 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF28C98018D8C79500646155 /* WaitTimes */ = {
+		DF3384F318E1659E000122A9 /* WaitTimes */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C98C18D8C79500646155 /* Main.storyboard */,
-				DF28C98F18D8C79500646155 /* waitTimesViewController.h */,
-				DF28C99018D8C79500646155 /* waitTimesViewController.m */,
-				DF28C9C318D8E2A900646155 /* waitTimesCustomFontLabel.h */,
-				DF28C9C418D8E2A900646155 /* waitTimesCustomFontLabel.m */,
-				DF28C99218D8C79500646155 /* Images.xcassets */,
-				DF28C98118D8C79500646155 /* Supporting Files */,
+				DF33852318E16784000122A9 /* MainStoryboard.storyboard */,
+				DF3384FC18E1659E000122A9 /* AppDelegate.h */,
+				DF3384FD18E1659E000122A9 /* AppDelegate.m */,
+				DF3384FF18E1659E000122A9 /* Images.xcassets */,
+				DF3384F418E1659E000122A9 /* Supporting Files */,
 			);
 			path = WaitTimes;
 			sourceTree = "<group>";
 		};
-		DF28C98118D8C79500646155 /* Supporting Files */ = {
+		DF3384F418E1659E000122A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C98918D8C79500646155 /* waitTimesAppDelegate.h */,
-				DF28C98A18D8C79500646155 /* waitTimesAppDelegate.m */,
-				DF28C9B718D8CDCC00646155 /* OpenSans-Bold.ttf */,
-				DF28C9B818D8CDCC00646155 /* OpenSans-Light.ttf */,
-				DF28C9B918D8CDCC00646155 /* OpenSans-Regular.ttf */,
-				DF28C9BA18D8CDCC00646155 /* OpenSans-Semibold.ttf */,
-				DF28C9B618D8CD7900646155 /* Images */,
-				DF28C98218D8C79500646155 /* WaitTimes-Info.plist */,
-				DF28C98318D8C79500646155 /* InfoPlist.strings */,
-				DF28C98618D8C79500646155 /* main.m */,
-				DF28C98818D8C79500646155 /* WaitTimes-Prefix.pch */,
+				DF33852218E16693000122A9 /* fonts */,
+				DF3384F518E1659E000122A9 /* WaitTimes-Info.plist */,
+				DF3384F618E1659E000122A9 /* InfoPlist.strings */,
+				DF3384F918E1659E000122A9 /* main.m */,
+				DF3384FB18E1659E000122A9 /* WaitTimes-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DF28C99F18D8C79600646155 /* WaitTimesTests */ = {
+		DF33850C18E1659E000122A9 /* WaitTimesTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C9A518D8C79600646155 /* WaitTimesTests.m */,
-				DF28C9A018D8C79600646155 /* Supporting Files */,
+				DF33851218E1659E000122A9 /* WaitTimesTests.m */,
+				DF33850D18E1659E000122A9 /* Supporting Files */,
 			);
 			path = WaitTimesTests;
 			sourceTree = "<group>";
 		};
-		DF28C9A018D8C79600646155 /* Supporting Files */ = {
+		DF33850D18E1659E000122A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C9A118D8C79600646155 /* WaitTimesTests-Info.plist */,
-				DF28C9A218D8C79600646155 /* InfoPlist.strings */,
+				DF33850E18E1659E000122A9 /* WaitTimesTests-Info.plist */,
+				DF33850F18E1659E000122A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DF28C9B618D8CD7900646155 /* Images */ = {
+		DF33852218E16693000122A9 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				DF28C9BF18D8CFDE00646155 /* background.png */,
-				DF28C9C018D8CFDE00646155 /* background@2x.png */,
-				DF28C9B218D8CC3000646155 /* Default.png */,
-				DF28C9B318D8CC3100646155 /* Default@2x.png */,
+				DF33851C18E16687000122A9 /* OpenSans-Bold.ttf */,
+				DF33851D18E16687000122A9 /* OpenSans-Light.ttf */,
+				DF33851E18E16687000122A9 /* OpenSans-Regular.ttf */,
 			);
-			name = Images;
-			path = ..;
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF28C97618D8C79500646155 /* WaitTimes */ = {
+		DF3384E918E1659E000122A9 /* WaitTimes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF28C9A918D8C79600646155 /* Build configuration list for PBXNativeTarget "WaitTimes" */;
+			buildConfigurationList = DF33851618E1659E000122A9 /* Build configuration list for PBXNativeTarget "WaitTimes" */;
 			buildPhases = (
-				DF28C97318D8C79500646155 /* Sources */,
-				DF28C97418D8C79500646155 /* Frameworks */,
-				DF28C97518D8C79500646155 /* Resources */,
+				DF3384E618E1659E000122A9 /* Sources */,
+				DF3384E718E1659E000122A9 /* Frameworks */,
+				DF3384E818E1659E000122A9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -207,141 +181,124 @@
 			);
 			name = WaitTimes;
 			productName = WaitTimes;
-			productReference = DF28C97718D8C79500646155 /* WaitTimes.app */;
+			productReference = DF3384EA18E1659E000122A9 /* WaitTimes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF28C99718D8C79600646155 /* WaitTimesTests */ = {
+		DF33850418E1659E000122A9 /* WaitTimesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF28C9AC18D8C79600646155 /* Build configuration list for PBXNativeTarget "WaitTimesTests" */;
+			buildConfigurationList = DF33851918E1659E000122A9 /* Build configuration list for PBXNativeTarget "WaitTimesTests" */;
 			buildPhases = (
-				DF28C99418D8C79600646155 /* Sources */,
-				DF28C99518D8C79600646155 /* Frameworks */,
-				DF28C99618D8C79600646155 /* Resources */,
+				DF33850118E1659E000122A9 /* Sources */,
+				DF33850218E1659E000122A9 /* Frameworks */,
+				DF33850318E1659E000122A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF28C99E18D8C79600646155 /* PBXTargetDependency */,
+				DF33850B18E1659E000122A9 /* PBXTargetDependency */,
 			);
 			name = WaitTimesTests;
 			productName = WaitTimesTests;
-			productReference = DF28C99818D8C79600646155 /* WaitTimesTests.xctest */;
+			productReference = DF33850518E1659E000122A9 /* WaitTimesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF28C96F18D8C79500646155 /* Project object */ = {
+		DF3384E218E1659E000122A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = waitTimes;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "VF Interactive";
+				ORGANIZATIONNAME = "V2 Interactive";
 				TargetAttributes = {
-					DF28C99718D8C79600646155 = {
-						TestTargetID = DF28C97618D8C79500646155;
+					DF33850418E1659E000122A9 = {
+						TestTargetID = DF3384E918E1659E000122A9;
 					};
 				};
 			};
-			buildConfigurationList = DF28C97218D8C79500646155 /* Build configuration list for PBXProject "WaitTimes" */;
+			buildConfigurationList = DF3384E518E1659E000122A9 /* Build configuration list for PBXProject "WaitTimes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = DF28C96E18D8C79500646155;
-			productRefGroup = DF28C97818D8C79500646155 /* Products */;
+			mainGroup = DF3384E118E1659E000122A9;
+			productRefGroup = DF3384EB18E1659E000122A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF28C97618D8C79500646155 /* WaitTimes */,
-				DF28C99718D8C79600646155 /* WaitTimesTests */,
+				DF3384E918E1659E000122A9 /* WaitTimes */,
+				DF33850418E1659E000122A9 /* WaitTimesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF28C97518D8C79500646155 /* Resources */ = {
+		DF3384E818E1659E000122A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28C99318D8C79500646155 /* Images.xcassets in Resources */,
-				DF28C9C218D8CFDE00646155 /* background@2x.png in Resources */,
-				DF28C9C118D8CFDE00646155 /* background.png in Resources */,
-				DF28C98518D8C79500646155 /* InfoPlist.strings in Resources */,
-				DF28C9BC18D8CDCC00646155 /* OpenSans-Light.ttf in Resources */,
-				DF28C9BE18D8CDCC00646155 /* OpenSans-Semibold.ttf in Resources */,
-				DF28C9BB18D8CDCC00646155 /* OpenSans-Bold.ttf in Resources */,
-				DF28C9B518D8CC3100646155 /* Default@2x.png in Resources */,
-				DF28C98E18D8C79500646155 /* Main.storyboard in Resources */,
-				DF28C9BD18D8CDCC00646155 /* OpenSans-Regular.ttf in Resources */,
-				DF28C9B418D8CC3100646155 /* Default.png in Resources */,
+				DF33852118E16687000122A9 /* OpenSans-Regular.ttf in Resources */,
+				DF3384F818E1659E000122A9 /* InfoPlist.strings in Resources */,
+				DF33850018E1659E000122A9 /* Images.xcassets in Resources */,
+				DF33852018E16687000122A9 /* OpenSans-Light.ttf in Resources */,
+				DF33851F18E16687000122A9 /* OpenSans-Bold.ttf in Resources */,
+				DF33852418E16784000122A9 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF28C99618D8C79600646155 /* Resources */ = {
+		DF33850318E1659E000122A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28C9A418D8C79600646155 /* InfoPlist.strings in Resources */,
+				DF33851118E1659E000122A9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF28C97318D8C79500646155 /* Sources */ = {
+		DF3384E618E1659E000122A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28C99118D8C79500646155 /* waitTimesViewController.m in Sources */,
-				DF28C98B18D8C79500646155 /* waitTimesAppDelegate.m in Sources */,
-				DF28C9C518D8E2A900646155 /* waitTimesCustomFontLabel.m in Sources */,
-				DF28C98718D8C79500646155 /* main.m in Sources */,
+				DF3384FE18E1659E000122A9 /* AppDelegate.m in Sources */,
+				DF3384FA18E1659E000122A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF28C99418D8C79600646155 /* Sources */ = {
+		DF33850118E1659E000122A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28C9A618D8C79600646155 /* WaitTimesTests.m in Sources */,
+				DF33851318E1659E000122A9 /* WaitTimesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF28C99E18D8C79600646155 /* PBXTargetDependency */ = {
+		DF33850B18E1659E000122A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF28C97618D8C79500646155 /* WaitTimes */;
-			targetProxy = DF28C99D18D8C79600646155 /* PBXContainerItemProxy */;
+			target = DF3384E918E1659E000122A9 /* WaitTimes */;
+			targetProxy = DF33850A18E1659E000122A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF28C98318D8C79500646155 /* InfoPlist.strings */ = {
+		DF3384F618E1659E000122A9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF28C98418D8C79500646155 /* en */,
+				DF3384F718E1659E000122A9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		DF28C98C18D8C79500646155 /* Main.storyboard */ = {
+		DF33850F18E1659E000122A9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF28C98D18D8C79500646155 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DF28C9A218D8C79600646155 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF28C9A318D8C79600646155 /* en */,
+				DF33851018E1659E000122A9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -349,7 +306,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF28C9A718D8C79600646155 /* Debug */ = {
+		DF33851418E1659E000122A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,16 +335,16 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		DF28C9A818D8C79600646155 /* Release */ = {
+		DF33851518E1659E000122A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,16 +367,16 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DF28C9AA18D8C79600646155 /* Debug */ = {
+		DF33851718E1659E000122A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -432,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		DF28C9AB18D8C79600646155 /* Release */ = {
+		DF33851818E1659E000122A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -445,7 +402,7 @@
 			};
 			name = Release;
 		};
-		DF28C9AD18D8C79600646155 /* Debug */ = {
+		DF33851A18E1659E000122A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaitTimes.app/WaitTimes";
@@ -467,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		DF28C9AE18D8C79600646155 /* Release */ = {
+		DF33851B18E1659E000122A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaitTimes.app/WaitTimes";
@@ -488,34 +445,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF28C97218D8C79500646155 /* Build configuration list for PBXProject "WaitTimes" */ = {
+		DF3384E518E1659E000122A9 /* Build configuration list for PBXProject "WaitTimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF28C9A718D8C79600646155 /* Debug */,
-				DF28C9A818D8C79600646155 /* Release */,
+				DF33851418E1659E000122A9 /* Debug */,
+				DF33851518E1659E000122A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF28C9A918D8C79600646155 /* Build configuration list for PBXNativeTarget "WaitTimes" */ = {
+		DF33851618E1659E000122A9 /* Build configuration list for PBXNativeTarget "WaitTimes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF28C9AA18D8C79600646155 /* Debug */,
-				DF28C9AB18D8C79600646155 /* Release */,
+				DF33851718E1659E000122A9 /* Debug */,
+				DF33851818E1659E000122A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		DF28C9AC18D8C79600646155 /* Build configuration list for PBXNativeTarget "WaitTimesTests" */ = {
+		DF33851918E1659E000122A9 /* Build configuration list for PBXNativeTarget "WaitTimesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF28C9AD18D8C79600646155 /* Debug */,
-				DF28C9AE18D8C79600646155 /* Release */,
+				DF33851A18E1659E000122A9 /* Debug */,
+				DF33851B18E1659E000122A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF28C96F18D8C79500646155 /* Project object */;
+	rootObject = DF3384E218E1659E000122A9 /* Project object */;
 }

@@ -2,8 +2,8 @@
 //  WaitTimesTests.m
 //  WaitTimesTests
 //
-//  Created by Guillermo Vargas on 3/18/14.
-//  Copyright (c) 2014 VF Interactive. All rights reserved.
+//  Created by Guillermo Vargas on 3/25/14.
+//  Copyright (c) 2014 V2 Interactive. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

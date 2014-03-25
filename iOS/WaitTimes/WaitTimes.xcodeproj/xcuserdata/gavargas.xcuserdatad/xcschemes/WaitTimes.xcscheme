@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF28C97618D8C79500646155"
+               BlueprintIdentifier = "DF3384E918E1659E000122A9"
                BuildableName = "WaitTimes.app"
                BlueprintName = "WaitTimes"
                ReferencedContainer = "container:WaitTimes.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF28C99718D8C79600646155"
+               BlueprintIdentifier = "DF33850418E1659E000122A9"
                BuildableName = "WaitTimesTests.xctest"
                BlueprintName = "WaitTimesTests"
                ReferencedContainer = "container:WaitTimes.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF28C97618D8C79500646155"
+            BlueprintIdentifier = "DF3384E918E1659E000122A9"
             BuildableName = "WaitTimes.app"
             BlueprintName = "WaitTimes"
             ReferencedContainer = "container:WaitTimes.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF28C97618D8C79500646155"
+            BlueprintIdentifier = "DF3384E918E1659E000122A9"
             BuildableName = "WaitTimes.app"
             BlueprintName = "WaitTimes"
             ReferencedContainer = "container:WaitTimes.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF28C97618D8C79500646155"
+            BlueprintIdentifier = "DF3384E918E1659E000122A9"
             BuildableName = "WaitTimes.app"
             BlueprintName = "WaitTimes"
             ReferencedContainer = "container:WaitTimes.xcodeproj">
